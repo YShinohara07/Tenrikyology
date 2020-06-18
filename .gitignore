@@ -1,0 +1,16 @@
+
+ScrapySpider/quotes-1.html
+ScrapySpider/quotes-2.html
+ScrapySpider/scrapy.cfg
+ScrapySpider/tutorial/__init__.py
+ScrapySpider/tutorial/__pycache__/__init__.cpython-37.pyc
+ScrapySpider/tutorial/__pycache__/settings.cpython-37.pyc
+ScrapySpider/tutorial/items.py
+ScrapySpider/tutorial/middlewares.py
+ScrapySpider/tutorial/pipelines.py
+ScrapySpider/tutorial/settings.py
+ScrapySpider/tutorial/spiders/__init__.py
+ScrapySpider/tutorial/spiders/__pycache__/__init__.cpython-37.pyc
+ScrapySpider/tutorial/spiders/__pycache__/quote_spider.cpython-37.pyc
+ScrapySpider/tutorial/spiders/quote_spider.py
+TenrikyologyContent.csv
