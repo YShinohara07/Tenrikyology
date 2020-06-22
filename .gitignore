@@ -14,3 +14,9 @@ ScrapySpider/tutorial/spiders/__pycache__/__init__.cpython-37.pyc
 ScrapySpider/tutorial/spiders/__pycache__/quote_spider.cpython-37.pyc
 ScrapySpider/tutorial/spiders/quote_spider.py
 TenrikyologyContent.csv
+tenrikyology/__pycache__/__init__.cpython-37.pyc
+tenrikyology/__pycache__/items.cpython-37.pyc
+tenrikyology/__pycache__/pipelines.cpython-37.pyc
+tenrikyology/__pycache__/settings.cpython-37.pyc
+tenrikyology/spiders/__pycache__/__init__.cpython-37.pyc
+tenrikyology/spiders/__pycache__/Tenri_spider.cpython-37.pyc

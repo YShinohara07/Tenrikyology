@@ -65,17 +65,17 @@ class TenriSpider(scrapy.Spider):
         tag = response.xpath('//span[@class="tags-links"]//text()').extract()
         content = response.xpath('//div[@class="entry-content"]//text()').extract()
 
-        print(
-            'TITLE: {} \nENTRY DATE: {} \nCAT: {}\nTAG: {}\n'.format(title,entry_date,cat,tag)
-        )
-
         item = TenrikyologyItem()
         item['title']=title
         item['entry_date']=entry_date
         item['cat']=cat
         item['tag']=tag
         item['content']=content
-
+        
+        print(
+            'TITLE: {} \nENTRY DATE: {} \nCAT: {}\nTAG: {}\n'.format(title,entry_date,cat,tag)
+        )
+        yield item
 
 
 
