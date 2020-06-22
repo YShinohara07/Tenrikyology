@@ -71,10 +71,6 @@ class TenriSpider(scrapy.Spider):
         item['cat']=cat
         item['tag']=tag
         item['content']=content
-        
-        print(
-            'TITLE: {} \nENTRY DATE: {} \nCAT: {}\nTAG: {}\n'.format(title,entry_date,cat,tag)
-        )
         yield item
 
 
