@@ -39,15 +39,10 @@ class TenriSpider(scrapy.Spider):
 
     def start_requests(self):
         print("start_request executed")
-        
-        # Temp
-        major_urls = self.major_urls[3]
-        # for url in major_urls:
-        #     print(major_urls.index(url), url)
 
-        # for url in major_urls:
-        print('='*10,"current url {}".format(major_urls))
-        yield scrapy.Request(url=major_urls, callback=self.parse)
+        for url in self.major_urls:
+            print('='*50,"\ncurrent url: {}".format(url))
+            yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
         print('='*10,'PHASE: PARSE','='*10)
